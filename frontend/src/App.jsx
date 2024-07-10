@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import AddToCartButton from "./AddToCartButton";
 import { useSelector } from "react-redux";
 import PaymentForm from "./PaymentForm";
+import Tutorial from "./Tutorial";
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
         </div>
         <Cart />
         <PaymentForm />
+        <Tutorial />
       </div>
     </>
   );

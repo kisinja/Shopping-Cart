@@ -2,14 +2,14 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
     items: [{
-        id: 'p1',
-        title: 'Red Shirt',
-        quantity: 1,
-        price: 45,
-        img: "https://i.pinimg.com/474x/85/4a/10/854a10e981fce8ddaa8779b646c4c5f2.jpg"
+        id: 'sn1',
+        title: 'DENGS Men Shoes',
+        quantity: 2,
+        price: 7000,
+        img: "https://i.pinimg.com/564x/45/b1/3c/45b13c4a4095eca90b356213b0bccd00.jpg"
     }],
-    totalQuantity: 1,
-    totalAmount: 45,
+    totalQuantity: 2,
+    totalAmount: 7000,
 };
 
 const cartSlice = createSlice({
